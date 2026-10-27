@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Новогодний городок или В гостях у Чебы — курорт Чебер</title>
+<meta content="Новогодние программы для детей 3+, 7+ и школьных групп в курорте Чебер." name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<script src="script.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <a href="#top"><img alt="Чебер — курорт в сердце Удмуртии" class="logo" decoding="async" height="173" src="assets/logo.svg" width="551"/></a>
+    <button aria-controls="primary-navigation" aria-expanded="false" aria-label="Открыть меню" class="mobilemenu">☰</button>
+    <nav aria-label="Основная навигация" class="links" id="primary-navigation">
+      <a href="#programs">Программы</a><a href="#locations">Локации</a><a href="#characters">Герои</a><a href="#contacts">Контакты</a><a class="btn" href="#programs">Выбрать программу</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <h1 class="visually-hidden">Новогодний городок «В&nbsp;гостях у&nbsp;Чебы»</h1>
+  <div class="welcome-panel">
+  <div class="hero">
+    <img alt="Чеба и козочки танцуют у празднично украшенного входа в новогодний городок" class="hero-picture" decoding="async" fetchpriority="high" height="1021" src="assets/hero.jpg" width="1540"/>
+  </div>
+  <section class="welcome-intro"><div class="wrap intro">
+    <img alt="Зимняя сказка в Чебере" class="intro-wording" decoding="async" height="504" src="assets/winter-wording.png" width="760"/>
+    <h2>Добро пожаловать<br/>в&nbsp;новогодний городок</h2>
+    <p>Чеба и&nbsp;его друзья — новогодние Козочки — приглашают детей в&nbsp;сказочное путешествие. Заснеженные дорожки, сияющие ёлки, игры, квесты, мастер-классы и&nbsp;праздничная дискотека ждут гостей на&nbsp;нескольких локациях.</p>
+  </div></section>
+  </div>
+  <section class="programs" id="programs"><div class="wrap">
+    <span class="eyebrow">Для&nbsp;детей и&nbsp;школьных групп</span>
+    <h2>Выберите новогоднюю программу</h2>
+    <div class="cards">
+      <article class="card"><img alt="Светящаяся зимняя тропа" decoding="async" height="801" loading="lazy" src="assets/forest.jpg" width="1200"/><div class="inside"><span class="tag">2 часа 30 минут</span><h3>Сборная программа<br/>для&nbsp;детей от&nbsp;7 лет</h3><p>Большой новогодний квест с&nbsp;приключениями в&nbsp;Доме Чебы и&nbsp;праздничным финалом.</p><button class="btn" type="button" data-open-program="seven" aria-haspopup="dialog" aria-controls="program-seven">Подробнее</button></div></article>
+      <article class="card"><img alt="Новогодняя ёлка Дома Чебы" decoding="async" height="1200" loading="lazy" src="assets/tree.jpg" width="900"/><div class="inside"><span class="tag">1 час 15 минут</span><h3>Сборная программа<br/>для&nbsp;детей от&nbsp;3 лет</h3><p>Игры, встреча с&nbsp;Чебой, волшебные пузыри, дискотека и&nbsp;угощение для&nbsp;малышей.</p><button class="btn" type="button" data-open-program="three" aria-haspopup="dialog" aria-controls="program-three">Подробнее</button></div></article>
+      <article class="card"><img alt="Праздничный зал" decoding="async" height="600" loading="lazy" src="assets/hall.jpg" width="1200"/><div class="inside"><span class="tag">До&nbsp;5 часов</span><h3>Школьные группы</h3><p>Квест, мастер-класс, дискотека, обед и&nbsp;кислородный коктейль.</p><button class="btn" type="button" data-open-program="schools" aria-haspopup="dialog" aria-controls="program-schools">Подробнее</button></div></article>
+    </div>
+    <p class="section-ticket"><a class="btn" href="https://ticketcode.ru/organizer/cheber">Купить билеты</a></p>
+  </div></section>
+  <dialog class="program-dialog" id="program-seven" aria-labelledby="program-seven-title">
+    <button class="program-dialog-close" type="button" aria-label="Закрыть окно">×</button>
+    <article class="program" id="seven"><img alt="Новогодние локации на улице" class="photo" decoding="async" height="801" loading="lazy" src="assets/forest.jpg" width="1200"/><div><span class="pill">7+ · 2,5 часа</span><h3 id="program-seven-title">Сборная программа 7+</h3><ol class="steps"><li><b>Встреча гостей на&nbsp;улице.</b> Квест по&nbsp;этапам на&nbsp;нескольких новогодних локациях.</li><li><b>Дом Чебы.</b> Продолжение квеста: мыльные пузыри со&nbsp;второго этажа, белые шары и&nbsp;поиск предмета.</li><li><b>Основной зал.</b> Завершение квеста, встреча с&nbsp;Дедом Морозом, Снегурочкой и&nbsp;сказочными героями. Дискотека.</li><li><b>Мастер-класс.</b> Творческая часть программы.</li><li><b>Угощение.</b> Перепечка и&nbsp;горячий компот.</li></ol></div></article>
+  </dialog>
+  <dialog class="program-dialog" id="program-three" aria-labelledby="program-three-title">
+    <button class="program-dialog-close" type="button" aria-label="Закрыть окно">×</button>
+    <article class="program" id="three"><img alt="Праздничная ёлка и мыльные пузыри в Доме Чебы" class="photo" decoding="async" height="1200" loading="lazy" src="assets/tree.jpg" width="900"/><div><span class="pill">3+ · 1 час 15 минут</span><h3 id="program-three-title">Сборная программа 3+</h3><ol class="steps"><li><b>Встреча гостей на&nbsp;улице.</b> Игры на&nbsp;нескольких новогодних локациях.</li><li><b>Дом Чебы.</b> Мыльные пузыри со&nbsp;второго этажа, белые шары, встреча с&nbsp;Чебой и&nbsp;героями.</li><li><b>Основной зал.</b> Встреча с&nbsp;Дедом Морозом и&nbsp;Снегурочкой. Дискотека.</li><li><b>Мастер-класс.</b> Новогоднее творчество.</li><li><b>Угощение.</b> Перепечка и&nbsp;горячий компот.</li></ol></div></article>
+  </dialog>
+  <dialog class="program-dialog" id="program-schools" aria-labelledby="program-schools-title">
+    <button class="program-dialog-close" type="button" aria-label="Закрыть окно">×</button>
+    <article class="program" id="schools"><img alt="Новогодний зал для школьных групп" class="photo" decoding="async" height="600" loading="lazy" src="assets/hall.jpg" width="1200"/><div><span class="pill">Школьные группы · до&nbsp;5 часов</span><h3 id="program-schools-title">Новогоднее приключение для&nbsp;класса</h3><p>В&nbsp;пакет входят:</p><ul class="steps"><li>Питание — обед.</li><li>Программа продолжительностью до&nbsp;5 часов: квест с&nbsp;Чебой и&nbsp;героями, мастер-класс и&nbsp;дискотека.</li><li>Кислородный коктейль.</li></ul></div></article>
+  </dialog>
+  <section class="programs" id="locations"><div class="wrap">
+    <span class="eyebrow">Места, где&nbsp;происходит волшебство</span><h2>Новогодние локации</h2>
+    <div class="locations">
+      <article class="location"><img alt="Вход В гостях у Чебы" decoding="async" height="1200" loading="lazy" src="assets/entrance.jpg" width="1097"/><div><h3>Вход в&nbsp;сказку</h3><p>Празднично украшенный вход в&nbsp;новогодний городок.</p></div></article>
+      <article class="location"><img alt="Новогодняя лесная тропа" decoding="async" height="801" loading="lazy" src="assets/forest.jpg" width="1200"/><div><h3>Зимние дорожки</h3><p>Светящиеся гирлянды и&nbsp;новогодние этапы квеста.</p></div></article>
+      <article class="location"><img alt="Дом Чебы с ёлкой" decoding="async" height="1200" loading="lazy" src="assets/tree.jpg" width="900"/><div><h3>Дом Чебы</h3><p>Большая ёлка, белые шары и&nbsp;мыльные пузыри со&nbsp;второго этажа.</p></div></article>
+      <article class="location"><img alt="Украшенный основной зал" decoding="async" height="600" loading="lazy" src="assets/hall.jpg" width="1200"/><div><h3>Основной зал</h3><p>Завершение квеста, встреча с&nbsp;героями и&nbsp;дискотека.</p></div></article>
+      <article class="location"><img alt="Почта желаний" decoding="async" height="799" loading="lazy" src="assets/mail.jpg" width="1200"/><div><h3>Почта желаний</h3><p>Атмосферная новогодняя фотолокация.</p></div></article>
+      <article class="location"><img alt="Снежная горка" decoding="async" height="800" loading="lazy" src="assets/slide.jpg" width="1200"/><div><h3>Зимняя горка</h3><p>Заснеженная территория новогоднего городка.</p></div></article>
+    </div>
+  </div></section>
+  <section class="characters" id="characters"><div class="wrap">
+    <span class="eyebrow">Наши сказочные друзья</span><h2>Герои новогоднего городка</h2>
+    <div class="chargrid">
+      <article class="character"><img alt="Чеба" decoding="async" height="1152" loading="lazy" src="assets/cheba-card.jpg" width="768"/><div><h3>Чеба</h3><p>Озорной и&nbsp;добрый хозяин новогоднего городка. Приглашает гостей в&nbsp;приключение и&nbsp;помогает пройти праздничные испытания.</p></div></article>
+      <article class="character"><img alt="Новогодние Козочки" decoding="async" height="1152" loading="lazy" src="assets/goats-card.jpg" width="768"/><div><h3>Новогодние Козочки</h3><p>Друзья Чебы и&nbsp;герои сказки. Встречают детей, играют и&nbsp;сопровождают их в&nbsp;путешествии.</p></div></article>
+      <article class="character"><img alt="Дед Мороз" decoding="async" height="1152" loading="lazy" src="assets/ded-moroz.jpg" width="768"/><div><h3>Дед Мороз</h3><p>Главный зимний волшебник. Встречает гостей на&nbsp;праздничном финале программы.</p></div></article>
+      <article class="character"><img alt="Снегурочка" decoding="async" height="1152" loading="lazy" src="assets/snegurochka.jpg" width="768"/><div><h3>Снегурочка</h3><p>Помощница Деда Мороза. Приглашает детей в&nbsp;новогодние игры и&nbsp;на&nbsp;дискотеку.</p></div></article>
+    </div>
+    <p class="section-ticket"><a class="btn" href="https://ticketcode.ru/organizer/cheber">Купить билеты</a></p>
+  </div></section>
+  <section id="contacts"><div class="wrap intro">
+    <h2>Ждём вас в&nbsp;гостях у&nbsp;Чебы!</h2><p>Курорт «Чебер» · Ижевск, ул. Ленина, 132</p>
+    <h3 class="questions-title">Остались вопросы?</h3>
+    <p>Свяжитесь с&nbsp;нами по&nbsp;телефонам или&nbsp;напишите в&nbsp;ВК:</p>
+    <div class="questions-contacts">
+      <a href="tel:+79501755528">8 950 175 55 28</a>
+      <a href="tel:+73412555028">8 (3412) 555 028</a>
+      <a class="questions-vk" href="https://vk.ru/cheber_resort" target="_blank" rel="noopener noreferrer" aria-label="Написать в ВКонтакте"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.162 18.994c-8.2 0-12.877-5.622-13.072-14.976h4.107c.135 6.866 3.163 9.774 5.562 10.374V4.018h3.868V9.94c2.369-.255 4.857-2.953 5.697-5.922h3.868c-.645 3.658-3.343 6.356-5.262 7.466 1.919.899 4.992 3.253 6.161 7.51h-4.257c-.915-2.848-3.193-5.052-6.207-5.352v5.352z"/></svg></a>
+    </div>
+  </div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner">
+  <div class="footer-info">
+    <p class="footer-heading">Оздоровительный отдых,<br/>семейные и&nbsp;детские программы</p>
+    <p class="footer-copy">Новогодний городок<br/>«В&nbsp;гостях у&nbsp;Чебы»</p>
+    <div class="footer-documents">
+      <a href="assets/documents/privacy-policy.pdf" target="_blank" rel="noopener noreferrer">Политика конфиденциальности ↗</a>
+      <a href="assets/documents/user-agreement.pdf" target="_blank" rel="noopener noreferrer">Пользовательское соглашение ↗</a>
+    </div>
+    <p class="footer-copy">Представленные сведения актуальны на&nbsp;27.10.2026</p>
+    <p class="footer-disclaimer">Указанные на&nbsp;сайте цены не&nbsp;являются публичной офертой (ст. 435 ГК РФ). Стоимость и&nbsp;возможность предоставления услуг необходимо уточнять в&nbsp;кассах.</p>
+    <p class="footer-copy">© 2026 Курорт «Чебер». Все права защищены.</p>
+  </div>
+  <a class="footer-logo" href="#top" aria-label="Чебер — на главную"><img alt="Чебер — курорт" decoding="async" height="400" loading="lazy" src="assets/Logo/Logo-white.svg" width="400"/></a>
+  <div class="footer-contacts" aria-label="Контакты">
+    <h2 class="footer-heading">Контакты и&nbsp;соцсети</h2>
+    <a class="footer-vk" href="https://vk.ru/cheber_resort" target="_blank" rel="noopener noreferrer" aria-label="Чебер ВКонтакте — открыть в новой вкладке"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.162 18.994c-8.2 0-12.877-5.622-13.072-14.976h4.107c.135 6.866 3.163 9.774 5.562 10.374V4.018h3.868V9.94c2.369-.255 4.857-2.953 5.697-5.922h3.868c-.645 3.658-3.343 6.356-5.262 7.466 1.919.899 4.992 3.253 6.161 7.51h-4.257c-.915-2.848-3.193-5.052-6.207-5.352v5.352z"/></svg></a>
+    <p><strong>Адрес офиса продаж:</strong> г. Ижевск, ул. Ленина, 132, курорт «ЧЕБЕР», 1 этаж, кабинет №102.</p>
+    <p><strong>Режим работы офиса</strong><br/>По&nbsp;будням 8:00–17:00, обед с&nbsp;12:00 до&nbsp;13:00</p>
+    <div class="footer-phones"><strong>Телефоны:</strong>
+    <a class="footer-phone" href="tel:+79501755528">8 950 175 55 28</a>
+    <a class="footer-phone" href="tel:+73412555028">8 (3412) 555 028</a>
+    </div>
+    <p><strong>E-mail:</strong> <a href="mailto:info@cheberresort.ru">info@cheberresort.ru</a></p>
+    <p><strong>Реквизиты компании:</strong><br/>ООО «Чебер»<br/>ИНН 1800042080<br/>ОГРН 1251800013079</p>
+
+  </div>
+</div></footer>
+
+</body></html>
