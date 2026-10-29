@@ -10,8 +10,8 @@ const css = read('styles.css');
 const errors = [];
 const pending = [];
 const documents = new Set([
-  'assets/documents/privacy-policy.pdf',
-  'assets/documents/user-agreement.pdf',
+  'Politika_konfidentsialnosti.pdf',
+  'Agreement.pdf',
 ]);
 const references = new Set(['index.html', 'styles.css', 'script.js']);
 

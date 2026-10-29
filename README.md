@@ -23,12 +23,12 @@ GitHub Pages публикует корень ветки `main`. Файл `.nojek
 Ссылки на билеты ведут на https://ticketcode.ru/organizer/cheber.
 Шрифт Raleway загружается из Google Fonts; при недоступности используется Arial.
 
-Перед публикацией добавьте документы:
+Документы для сайта `https://cheba.cheberresort.ru` размещены в проекте:
 
-- `assets/documents/privacy-policy.pdf`
-- `assets/documents/user-agreement.pdf`
+- `Politika_konfidentsialnosti.pdf`
+- `Agreement.pdf`
 
-Ссылки на них уже находятся в подвале и открываются в новой вкладке. До добавления файлов эти две ссылки будут возвращать 404.
+Ссылки на них находятся в подвале и в подсказках кнопок покупки билетов и открываются в новой вкладке. При публикации загрузите `Politika_konfidentsialnosti.pdf`, `Agreement.pdf` и `cookie-consent.pdf` в корень сайта.
 
 ## Проверка
 
